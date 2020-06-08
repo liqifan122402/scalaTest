@@ -77,7 +77,7 @@ object Hello {
     val i: Int = map4("a")+map4("d")
     println(i)
 
-      println(map4("aa"))
+      //println(map4("aa"))
 
 
     //抛出 NoSuchElementException
@@ -89,6 +89,9 @@ object Hello {
     if(map4.contains("a")){
       println(map4("a"))
     }
+
+
+
   }
 }
 
